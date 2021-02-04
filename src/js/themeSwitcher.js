@@ -5,7 +5,7 @@ const Theme = {
 };
 
 switcher.addEventListener('change', setTheme);
-switcher.checked = false;
+
 
 function setTheme() {
   const bodyStyle = document.body.classList.contains(Theme.DARK);
